@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/running_man.rb",
+     "running_man.gemspec",
      "spec/running_man_spec.rb",
      "spec/spec_helper.rb"
   ]
