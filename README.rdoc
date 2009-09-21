@@ -1,4 +1,18 @@
 = running_man
+  RunningMan.run_for(2) do
+    while(true)
+      #do some processing
+      break if time_expired?
+    end
+  end
+
+  RunningMan.run_until(3.days.from_now) do
+    while(true)
+      #do some processing
+      break if time_expired?
+    end
+  end
+
 
 Description goes here.
 
